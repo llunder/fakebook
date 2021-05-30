@@ -1,0 +1,69 @@
+body {
+    background-image: url("https://i.postimg.cc/bvNZ18hV/lemon2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    text-align: left;
+}
+
+.big {
+    font-size: 50px;
+}
+
+.big2 {
+    font-size:35px;
+}
+
+.blue {
+    color: #1E90FF;
+}
+
+.blue:hover {
+    text-shadow: 3px 3px black;
+}
+
+.border {
+    border: 5px solid #1E90FF;
+}
+
+.border:hover {
+    border: 5px dotted coral;
+}
+
+.move {
+    position: relative;
+    animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 250px;}
+}
+
+button {
+    background-color: #1E90FF;
+    border: 3px black solid;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: coral;
+    color: black;
+}
+
+.input:focus {
+    background-color: #7FEDFE;
+}
+
+a:visited {
+    color: coral;
+}
+
+.pad {
+border: 2px solid black;
+padding: 10px 10px 10px 20px;
+background-color: white
+}
